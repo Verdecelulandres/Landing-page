@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: monospace;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.logo {
+    display: flex;
+    flex-flow: row nowrap;
+    color: whitesmoke;
+    font-family: monospace;
+}
