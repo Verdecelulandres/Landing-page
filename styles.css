@@ -38,7 +38,10 @@ p {
 }
 
 button {
-flex-grow: 0;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 25px;
+    padding: 8px;
 }
 
 .header {
@@ -46,7 +49,7 @@ flex-grow: 0;
     flex-flow: row nowrap;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 16px;
+    padding: 8px 16px;
     align-items: center;
 }
 
@@ -89,6 +92,7 @@ flex-grow: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid #E5E7EB;
 }
 
 
