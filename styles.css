@@ -95,8 +95,40 @@ button {
     border: 1px solid #E5E7EB;
 }
 
+#project {
+    font-size: 36px;
+    font-weight: bold;
+}
 
 #about {
     font-size: 48px;
     font-weight: bolder;
+}
+
+.projects {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    gap: 48px;
+}
+
+.description {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.knife {
+    border: 5px dotted #1F2937;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.top {
+    color: gold;
 }
