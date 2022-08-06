@@ -103,6 +103,12 @@ button {
 #about {
     font-size: 48px;
     font-weight: bolder;
+    text-align: center;
+}
+
+#music {
+    font-size: 36px;
+    font-weight: bold;
 }
 
 .projects {
@@ -131,4 +137,44 @@ button {
 
 .top {
     color: gold;
+}
+
+.music-video {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    gap: 32px;
+    padding: 32px;
+    background-color: #E5E7EB;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 16px;
+    margin-top: 16px;
+    padding: 32px;
+}
+
+.video {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 200px;
+}
+
+.guitar {
+    border: 4px solid #3882F6;
+    border-radius: 25px;
+}
+
+.notes {
+    font-size: 16px;
+    text-align: center;
 }
