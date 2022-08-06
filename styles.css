@@ -40,6 +40,7 @@ p {
 button {
     background-color: #3882F6;
     color: #E5E7EB;
+    border: 2px solid #E5E7EB;
     border-radius: 25px;
     padding: 8px;
 }
@@ -111,6 +112,11 @@ button {
     font-weight: bold;
 }
 
+#random {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .projects {
     display: flex;
     flex-flow: column nowrap;
@@ -146,6 +152,7 @@ button {
     gap: 32px;
     padding: 32px;
     background-color: #E5E7EB;
+    color: #1F2937;
 }
 
 .title {
@@ -177,6 +184,26 @@ button {
 .notes {
     font-size: 16px;
     text-align: center;
+}
+
+.random-button {
+    margin: 100px;
+    padding: 48px 24px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.random-text {
+    font-size: 16px;
+}
+
+.randomize {
+    padding: 16px;
 }
 
 .footer {
